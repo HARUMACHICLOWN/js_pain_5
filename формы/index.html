@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- <select id="genres">
+        <option value="rock">Рок</option>
+        <option value="blues" selected>Блюз</option>
+      </select>
+      
+      <script>
+        // 1
+        let selectedOption = genres.options[genres.selectedIndex];
+        alert( selectedOption.value );
+        alert( selectedOption.text );
+      
+        // 2
+        let newOption = new Option("Классика", "classic");
+        genres.append(newOption);
+      
+        // 3
+        newOption.selected = true; -->
+      <!-- </script> -->
+</body>
+<body>
+    <!-- 2
+    <ul>
+        <li>Кликните на div ниже, чтобы отредактировать текст.</li>
+        <li>Нажатие на Enter или потеря фокуса с ввода сохранят содержимое.</li>
+      </ul>
+    
+      HTML-код разрешён.
+    
+      <div id="view" class="view">Текст</div>
+    
+      <script>
+        let area = null;
+        let view = document.getElementById('view');
+    
+        view.onclick = function() {
+          editStart();
+        };
+    
+        function editStart() {
+          area = document.createElement('textarea');
+          area.className = 'edit';
+          area.value = view.innerHTML;
+    
+          area.onkeydown = function(event) {
+            if (event.key == 'Enter') {
+              this.blur();
+            }
+          };
+    
+          area.onblur = function() {
+            editEnd();
+          };
+    
+          view.replaceWith(area);
+          area.focus();
+        }
+    
+        function editEnd() {
+          view.innerHTML = area.value;
+          area.replaceWith(view);
+        }
+      </script> -->
+</body>
+</html>
